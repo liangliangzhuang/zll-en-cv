@@ -1,0 +1,151 @@
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,roman]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\rmdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+%\usepackage[colorlinks,linkcolor=blue,urlcolor=black]{hyperref}
+% adjust the page margins
+\usepackage[scale=0.78]{geometry}
+\setlength{\hintscolumnwidth}{2.3cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Liangliang}
+\familyname{Zhuang}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{Zhejiang, China}    % optional, remove the line if not wanted
+%\mobile{+86~15968721218}                     % optional, remove the line if not wanted
+%\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{22010040022@pop.zjgsu.edu.cn}                          % optional, remove the line if not wanted
+%\extrainfo{https://zll-blog.netlify.app/} 
+% optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+\photo[90pt][0.01pt]{1.jpeg}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+%\cventry{StartDate--EndDate}{Ph.D. in ProgramTitle}{}{GPA: 0/4, UniversityName, City, Canada}{}{}{}
+%\cvlistitem {\textbf{Ph.D. Thesis:} "\textit{Title of Ph.D. Thesis}," under supervision of \textbf{Prof. SupervisorName} }
+
+\cventry{2015--2019}{B.Sc. in Statistics}{}{GPA: 3.43/4, Wenzhou University, Wenzhou, China}{}{}{}
+\cvlistitem {Main courses: probability theory and mathematical statistics; stochastic process; machine learning; advanced mathematics}
+
+\cventry{2019--2022}{M.Sc. in Statistics}{}{GPA: 3.58/4, Wenzhou University, Wenzhou, China}{}{}{}
+\cvlistitem{Supervisor: Ancha Xu, professor}
+\cvlistitem{Main courses: statistical learning theory; reliability statistical analysis; degradation processes in reliability; deep learning}
+
+\cventry{2022--present}{PhD. in Statistics}{}{GPA: 3.65/4, Zhejiang Gongshang University, Hangzhou, China}{}{}{}
+\cvlistitem{Supervisor: Liping Zhu, professor and Ancha Xu, professor}
+\cvlistitem{Main courses: statistical learning theory; reliability statistical analysis; Bayesian analysis}
+
+\section{Publications}
+%\cvlistitem{Author1 and Author2, "Conference Paper Title," \textit{conference Name}, City, country, year, pp. 1-last page.}
+\cvlistitem{\textbf{Liangliang Zhuang}, Ancha Xu*  and Xiao-Lin Wang*, ``A new dynamic predictive maintenance framework using Bayesian deep learning for failure prognostics", \textit{Reliability Engineering and System Safety}, 234 (2023): 109181 (IF: 8.2).}
+
+\cvlistitem{\textbf{Liangliang Zhuang}, Ancha Xu* and Jihong Pang, ``\href{https://www.sciencedirect.com/science/article/abs/pii/S0951832021001654}{Product reliability analysis based on heavily censored interval data with batch effects}", \textit{Reliability Engineering and System Safety}, 2021, 212:107622 (IF: 8.2).}
+
+\cvlistitem{\textbf{Liangliang Zhuang} and Ancha Xu*, ``Data analysis of progressive‐stress accelerated life tests with group effects", \textit{Quality Technology \& Quantitative Management}, 2022, 10.1080/16843703.2022.2147690.}
+
+\cvlistitem{\textbf{Liangliang Zhuang}, Ancha Xu*, ``Remaining useful life prediction for two-phase deteriorating process based on reparameterized inverse Guassian process", \textit{Working paper.}}
+
+\cvlistitem{\textbf{Liangliang Zhuang}, Ancha Xu*, ``Multivariate inverse Gaussian process with common effects", \textit{Working paper.}}
+
+
+%\cvlistitem{\textbf{Liangliang Zhuang} and Huilin Huang*, ``Comparative research and visualization of economic strength status of various prefecture-level cities in Zhejiang province based on K-means cluster analysis," \textit{Journal of Wenzhou University}, 2018, 39(04): 19-24.}
+
+
+\section{Research Grants}
+
+\cvlistitem{Analysis on the influencing factors of comprehensive competitiveness of Chinese cities, \textit{National Innovation and Entrepreneurship Program}, 1 Jan 2018 - 1 Jan 2020 (PI).}
+
+\cvlistitem{Reliability analysis based on interval data with batch effects, \textit{Foundation of Wenzhou University Graduate Innovation}, 1 Jan 2019 - 1 Jan 2020 (PI).}
+
+\cvlistitem{Statistical analysis of lifetime data with batch effects, \textit{Foundation of Zhejiang Educational Committee of China},  1 Jul 2020 - 1 Jan 2021 (PI).}
+
+\cvlistitem{Application innovation of reliability analysis, \textit{Project the Research Foundation from Zhejiang New Miao Talents Program Fund},  1 Jul 2021 - 1 Jul 2022 (PI).}
+
+
+
+
+
+\section{Research Experiences}
+
+\cventry{2021.7--2022.1}{Research assistance}{}{Hong Kong Polytechnic University}{}{}{}
+\cvlistitem{Advisor: \textit{\href{https://www.researchgate.net/profile/Xiaolin-Wang-15}{Xiao-Lin Wang}, Research Assistant Professor}}
+\cvlistitem {Read related literature on maintenance; based on Bayesian deep learning, combine remaining useful lifetime prediction with preventive maintenance.}
+
+
+\cventry{2019--present}{Group member}{}{East China Normal University}{}{}
+\cvlistitem{Advisor: \textit{\href{https://www.researchgate.net/profile/Yincai-Tang}{Yincai Tang}, Professor}}
+\cvlistitem {Learn Bayesian analysis and some approximate Bayesian methods and apply it to Spatio-temporal statistics; as a participant, cooperate with Huawei to build an application platform for reliability analysis.}
+
+% \cventry{2018--2021}{Group member (core)}{}{Wenzhou University}{}{}
+% \cvlistitem{Advisor:  \textit{\href{https://scholar.google.com/citations?user=hxbCeZIAAAAJ&hl=en}{Ancha Xu}, Professor}}
+% \cvlistitem {Master the basic knowledge of reliability statistics, including: failure-time data; degradation process; accelerated life test; attended a seminar for one semester as a keynote speaker.}
+
+\section{Practical Experiences}
+
+\cventry{2020--present}{Knowledge sharer}{Website online}{}{}{}{}
+\cvlistitem{
+Create an owner WeChat official account to share some programming knowledge which has 300 original blogs, 30,000 readers and 1,000,000 reading times and ranked fourth in the field of R language.}
+\cvlistitem{Establish two training courses and post them online: data visualization (\href{https://www.bilibili.com/video/BV1MA411p7VR/}{click}), document communication (\href{https://www.bilibili.com/video/BV1ib4y1X7r9/}{click}). The total number of views of the two videos exceeds 20,000 times.
+}
+
+
+\section{Awards and Achievements}
+\cvlistitem{Best Student Paper Award in the 4th International Conference on System Reliability and Safety Engineering (SRSE)(Dec. 2022).}
+\cvlistitem{Second Prize of the 6th National Academic Forum for PhD Students in Statistics (Nov. 2022).}
+\cvlistitem{Third prize in the ``Obey Cup" Industrial Supply Chain Data Intelligence Innovation Competition (Nov. 2022).}
+\cvlistitem{Third prize in the ``Obey Cup" Industrial Supply Chain Data Intelligence Innovation Competition (Nov. 2022).}
+\cvlistitem{ ``Outstanding Graduate" in Zhejiang Province (2021).}
+\cvlistitem{Third Prize of National Graduate Modeling Competition (2019, 2020).}
+\cvlistitem{Meritorious Winner of American Mathematical Contest in Modeling (2018).}
+\cvlistitem{Honorable Mention of American Mathematical Contest in Modeling (2017).}
+\cvlistitem{Third Prize of National College Student Market Survey and Analysis Competition (2017).}
+\cvlistitem{First Prize of Zhejiang Province in the National Modeling Competition (2017).}
+
+\section{Progamming Skills}
+\cvlistitem {\textbf{R}: Programming enthusiast, proficiency in drawing graphics using the \textit{ggplot2} package; using \textit{}{Tidyverse} package for data processing and analysis; familiar with using \textit{shiny} package for web development and production. 
+}
+\cvlistitem {\textbf{Python}: Master the basic knowledge of python, and use \textit{numpy, pandas, matlibplot,} and \textit{skit-learn} library for data analysis; utilize the \textit{tensorflow} library to build a deep learning network.} 
+
+%\section{Languages}
+%\cvlistitem {\textbf{Language:} Level \\ Exam: 96/120 (Reading:00, Listening:00, Speaking:00, Writing:00)}
+
+%\cvlistitem {\textbf{Language:} Level \\ Exam: 96/120 (Reading:00, Listening:00, Speaking:00, Writing:00)}
+%\cvlistitem {\textbf{Language:} Level \\ Exam: 96/120 (Reading:00, Listening:00, Speaking:00, Writing:00)}
+
+
+
+
+\end{document}
